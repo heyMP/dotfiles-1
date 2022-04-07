@@ -4,7 +4,7 @@ if [ -d "$HOME/.cfg" ]; then
   git pull
   cd `echo $MY_CWD`
 else
-  git clone --bare https://github.com/bennypowers/dotfiles.git $HOME/.cfg
+  git clone --bare https://github.com/heyMP/dotfiles.git $HOME/.cfg
 fi
 
 function config {
